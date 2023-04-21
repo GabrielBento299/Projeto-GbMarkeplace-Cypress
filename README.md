@@ -1,5 +1,7 @@
 <h1>Projeto-Cypress-Gbmarketplace</h1>
 
+link do site: https://gb-markeplace-react.vercel.app
+
 ## funcionalidades testadas
 - Adicionar um produto ao carrinho
 - Pesquisar um produto 
