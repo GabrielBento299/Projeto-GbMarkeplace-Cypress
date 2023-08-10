@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
-describe('Funcionalidade página de produtos', () => {
+describe('Search Functionality', () => {
     const searchPhone = 'iPhone 13';
     const produtctNotExisten = 'Produto inexistente';
 
     beforeEach(() => {
-        cy.visit('https://gb-markeplace-react.vercel.app');
+        cy.visit('/');
     });
      it('should research a product with success', () => {
         cy.get('.container input').type(searchPhone);
