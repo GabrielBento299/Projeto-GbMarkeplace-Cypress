@@ -1,25 +1,26 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('searchProduct', productName => {
+    cy.visit('/');
+    cy.get('input[placeholder="Pesquisar"]').type(productName);
+});
+
+Cypress.Commands.add('takeText', () => {
+    cy.visit('/');
+
+      cy.get('.container-items .sc-fbJfA').eq(1).invoke('text').then((text) => {
+        return text;
+     });
+});
+
+Cypress.Commands.add('toastMessage', message => {
+    cy.get('.Toastify__toast-body')
+        .should('be.visible')
+        .and('contain', message);
+});
+
+Cypress.Commands.add('addToCart', (position) => {
+    cy.get('.container-items button').eq(position).click();
+});
+
+Cypress.Commands.add('removeToCart', (position) => {
+    cy.get('.container-items button').eq(position).click();
+});
