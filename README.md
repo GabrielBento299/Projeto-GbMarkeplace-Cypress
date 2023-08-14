@@ -17,6 +17,7 @@
 - Deve exibir uma mensagem quando remover o produto no carrinho
 - Deve diminuir a quantidade ao adicionar um item ao carrinho
 
+
 ![commerce cy js](https://github.com/GabrielBento299/Projeto-GbMarketplace-Cypress/assets/86307663/1dce54de-75bb-44de-9a8f-c66440e9c8f3)
 
 ## Funcionalidade de Busca
