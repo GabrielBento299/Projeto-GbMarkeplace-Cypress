@@ -2,6 +2,8 @@
 
 ### [Site ultilizado para os testes](https://gb-markeplace-react.vercel.app)
 
+## Caso de Teste com GHERKIN: [TestCase](testCase.md)
+
 ## Funcionalidade de Carrinho
 - Deve mostrar os dados do produto adicionado ao carrinho
 - Deve remover o produto do carrinho
