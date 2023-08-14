@@ -1,10 +1,10 @@
 Funcionalidade de Carrinho:
 
-Como um comprador online,
+Como um comprador online, 
 <br>
-Eu quero ver os detalhes do produto que adicionei ao carrinho,
+quero interagir de maneira intuitiva com o carrinho de compras para gerenciar os produtos que desejo comprar,
 <br>
-Para confirmar que selecionei o item correto antes de finalizar a compra.
+proporcionando-me controle total sobre minha seleção antes de finalizar a compra.
 
     Cenário: Mostrar dados do produto adicionado ao carrinho
     Dado que há um produto disponível
@@ -28,7 +28,7 @@ Como um comprador online,
 <br>
 Quero uma experiência de compra mais tranquila ao utilizar a funcionalidade da Página Inicial.
 <br>
-Para confirmar que selecionei o item correto antes de finalizar a compra.
+Para confirmar que selecionei o item e a quantidade correta antes de ir para o carrinho.
 
     Cenário 1: Exibir mensagem ao adicionar produto ao carrinho
     Dado que o usuário está na página inicial
@@ -54,6 +54,11 @@ Para confirmar que selecionei o item correto antes de finalizar a compra.
 
 
 Funcionalidade de Busca:
+Como um comprador online, 
+<br>
+Quero uma maneira rápida e precisa de encontrar os produtos que estou procurando, 
+<br>
+Para fim de agilizar minha experiência de compra.
 
     Cenário 1: Pesquisar produto com sucesso
     Dado que existem produtos disponíveis
