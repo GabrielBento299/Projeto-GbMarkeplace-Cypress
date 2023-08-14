@@ -8,7 +8,7 @@
 - Deve mostrar os dados do produto adicionado ao carrinho
 - Deve remover o produto do carrinho
 - Deve exibir uma mensagem se não houver produto no carrinho
-- 
+  
 ![cart cy js](https://github.com/GabrielBento299/Projeto-GbMarketplace-Cypress/assets/86307663/b4e7a119-ca6f-486b-8f05-9e8e65b0dc56)
 
 ## Funcionalidade Page Home
@@ -22,7 +22,7 @@
 ## Funcionalidade de Busca
 - Deve pesquisar um produto com sucesso
 - Deve exibir um erro ao pesquisar um produto que não existe
-- 
+
 ![search cy js](https://github.com/GabrielBento299/Projeto-GbMarketplace-Cypress/assets/86307663/9fe01732-da30-4319-bb1d-10ac02694ba0)
 
 # Resultado dos testes:
